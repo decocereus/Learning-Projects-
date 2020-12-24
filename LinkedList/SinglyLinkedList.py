@@ -13,6 +13,12 @@ class SinglyLinkedList:
         while printNode is not None:
             print(printNode.data)
             printNode = printNode.next 
+    def insertInEmptyList(self,data):
+        if self.head is None:
+            nodeToAdd = Node(data)
+            self.head = nodeToAdd
+        else:
+            print("List is not empty")
     
     def addNodeAtHead(self, data):
         nodeToAdd = Node(data)
@@ -90,12 +96,10 @@ class SinglyLinkedList:
        
 linkedList = SinglyLinkedList()
 
-linkedList.head = Node(0)
-n1 = Node(1)
-n2 = Node(2)
-linkedList.head.next = n1
-n1.next = n2
+linkedList.insertInEmptyList(0)
 
+linkedList.addNodeAtTail(1)
+linkedList.addNodeAtTail(2)
 linkedList.addNodeAtTail(3)
 linkedList.addNodeAtTail(4)
 linkedList.addNodeAtTail(5)
