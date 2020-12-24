@@ -37,7 +37,7 @@ class SinglyLinkedList:
                 temp = temp.next # this takes us to the last node in our list 
             temp.next = nodeToAdd
     
-    def insterAtNode(self,data,p):
+    def insertAtNode(self,data,p):
         if (self.head is None):
             self.addNodeAtHead(data)
         else:
