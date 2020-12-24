@@ -109,7 +109,7 @@ linkedList.addNodeAtTail(8)
 linkedList.addNodeAtTail(9)
 linkedList.addNodeAtTail(10)
 
-#Works perfectly fine
+#Works perfectly fine.
     
 print("This is our list\n")
 linkedList.printList()
