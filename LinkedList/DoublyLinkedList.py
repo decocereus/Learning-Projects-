@@ -96,7 +96,22 @@ class DoublyLinkedList:
                     temp = temp.next 
             
             return False 
-            
+    
+    def reverseList(self):
+        if self.head is None:
+            print("Empty list, can't reverse.")
+        else:
+            temp = self.head 
+            nextNode = temp.next 
+            temp.next = None 
+            temp.prev = nextNode
+            while nextNode is not None:
+                nextNode.prev = nextNode.next 
+                nextNode.next = temp 
+                temp = nextNode 
+                nextNode = nextNode.prev 
+            self.head = temp 
+            #1 2 3 4 
         
         
         
@@ -118,3 +133,4 @@ dLL.insertAtTail(6)
 
 print("This is our list: \n")
 dLL.printList()
+
