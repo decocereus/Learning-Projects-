@@ -48,4 +48,8 @@ for tests couldn't do much.
 
 For limitaitons and future work: Since proper testing of the system was not done, I can't say anything about the limitations for sure. First order of businnes would
                                  be to write more tests and then work on fixing them. Once that is done I can surely talk about the limitaitons of the system. 
-                
+
+The application is currently hosted on heroku, the link can be found in the READme of this project along with the instructions to access the admin side. 
+
+I hope you like the project. 
+Have a great day!
