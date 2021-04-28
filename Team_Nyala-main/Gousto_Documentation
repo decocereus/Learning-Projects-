@@ -25,8 +25,15 @@ Arrange Payment: This is the final step of the plan where the victim is
                  pressured into paying the scammer using some form of untraceable payment, such as gift cards.
                  
 A live demonsatration can be seen here: https://youtu.be/X4PllvUowaQ
-                 
-                 
+
+
+About the project:
+
+This project was assigned to me by the university, as I am intrested in cyber security as well, I got really excited about this project. We built a fake bank
+which essentially has everything which a normal bank would. This was specially designed for scam baiters who can use the admin side to control everything which happens.
+Overall I learned a lot throughout this project, from team spirit to learning new technologies. I learned RUby on Rails one week before this project and was able
+to build on everything I learned. Through this project I not only learned something new but also saw it come alive. I want to learn more in the future and hopefully
+get an oppurtunity to build something through that new technology. 
                  
 My Work:        
 
@@ -39,5 +46,8 @@ this suggestion he got an idea and implemented the functionality.
 Unfortunately the tests which have been written are not upto the mark and does not test everything out. Since we divided work in our team the team member responsible 
 for tests couldn't do much. 
 
-For limitaitons I can say that the system cannot handle requests for the HTML pages are not created 
+For limitaitons I can say that the system cannot handle requests for the HTML pages are not created and it will throw an error which is very undesirable. 
+
+For future work, I would say we definitely need more tests and then fix the results of those tests. 
+
                 
