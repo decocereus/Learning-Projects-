@@ -46,8 +46,6 @@ this suggestion he got an idea and implemented the functionality.
 Unfortunately the tests which have been written are not upto the mark and does not test everything out. Since we divided work in our team the team member responsible 
 for tests couldn't do much. 
 
-For limitaitons I can say that the system cannot handle requests for the HTML pages are not created and it will throw an error which is very undesirable. 
-
-For future work, I would say we definitely need more tests and then fix the results of those tests. 
-
+For limitaitons and future work: Since proper testing of the system was not done, I can't say anything about the limitations for sure. First order of businnes would
+                                 be to write more tests and then work on fixing them. Once that is done I can surely talk about the limitaitons of the system. 
                 
