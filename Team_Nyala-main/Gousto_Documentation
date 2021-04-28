@@ -1,0 +1,43 @@
+Gousto talent academy 
+
+Bank Nyala, the idea behind this project was to create a fake bank which can be used to scam baiters to catch scammers. 
+
+The Refund Scam: The refund scam is a common fraudulent scheme to steal money. There are many variants of the scheme. 
+                 In each variant, however, the scammers stick to a specific script that has been written by the person who designed scheme. 
+                 Typically, this script involves the following steps:
+
+Bait the victim: Prospective victims are contacted to inform them they are entitled to a refund. 
+                 Often, telephone numbers of victims of another scam are purchased or stolen to 
+                 find people to contact.
+                 
+Connect to PC:   In order to proceed with the scheme, the scammer requires remote access to the victim's computer.
+                 To achieve this, the scammer will ask the victim to download some type of remote access software 
+                 that is used by IT support teams. Each refund scam script includes a reason for this that fits within the story line.
+               
+Sell the lie:    Next, the scammer pretends to process the refund. For this crucial part of the scam to work,
+                 the scammer must get the victim to log into their bank account.The scammer will use this to 
+                 make the victim believe that in the process of processing the refund, an extra digit was entered into 
+                 the refund amount and the victim received far more money than they were owed. The scammer will edit the 
+                 HTML shown by the victim's web browser to make the victim believe that they did receive too much money. 
+                 At this point, the scammer feigns shock and surprise, and coerces the victim to "return" the amount that was overpaid.
+              
+Arrange Payment: This is the final step of the plan where the victim is
+                 pressured into paying the scammer using some form of untraceable payment, such as gift cards.
+                 
+A live demonsatration can be seen here: https://youtu.be/X4PllvUowaQ
+                 
+                 
+                 
+My Work:        
+
+I mostly worked on the admin side of the project. I implemented the whole interface including the login system and dashboard. For the login page
+a gem called Devise has been used which takes care of the authentication. On the dashboard there are several sections, each section has its own use. 
+I also helped my teammates with some of the errors they are facing in their area of work. For exaple my teammate who was handling the transaction functionality
+was confused about how to implement the sort-code, I suggested that we put 4 set numbers and the last two numbers can be the user id present in our database. Through
+this suggestion he got an idea and implemented the functionality. 
+
+Unfortunately the tests which have been written are not upto the mark and does not test everything out. Since we divided work in our team the team member responsible 
+for tests couldn't do much. 
+
+For limitaitons I can say that the system cannot handle requests for the HTML pages are not created 
+                
